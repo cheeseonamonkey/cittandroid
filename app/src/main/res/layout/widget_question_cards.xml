@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_widget_background"
+    android:orientation="vertical"
+    android:theme="@style/Theme.Citt.AppWidgetContainer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtWidgetQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:maxLines="2"
+            android:text="Question" />
+
+
+        <TextView
+            android:id="@+id/txtWidgetA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:elevation="1dp"
+            android:fontFamily="sans-serif-condensed"
+            android:minLines="2"
+            android:outlineProvider="paddedBounds"
+            android:text="AnswerAnswerAnswerAnswerAnswerAnswerAnswerAnswer"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</FrameLayout>

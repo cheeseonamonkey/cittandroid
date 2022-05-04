@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:summary="(This app is just a widget)"
+        />
+
+    <Preference
+        android:key="questionSet"
+        android:title="Loaded question set:"
+        android:summary="128 US Citizenship Questions"
+
+        />
+
+    <Preference
+        android:title="Edit question set"
+        android:summary=""
+        android:enabled="false"
+        app:allowDividerAbove="true"
+        />
+<!--
+    <MultiSelectListPreference
+        android:entries=""
+        android:entryValues=""
+        />
+-->
+
+</PreferenceScreen>
