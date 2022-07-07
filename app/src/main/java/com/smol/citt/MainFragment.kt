@@ -63,8 +63,9 @@ class MainFragment : PreferenceFragmentCompat(), DialogInterface.OnClickListener
                 Toast.makeText(context, "Copied to clipboard", Toast.LENGTH_LONG).show()
                 dialog.dismiss()
             }
-            .setNeutralButton("edit") {
+            .setNeutralButton("edit (not implemented)") {
                 dialog, i ->
+
                 MaterialAlertDialogBuilder(requireContext())
                     .setView(EditText(context)
                         .apply {
@@ -74,7 +75,7 @@ class MainFragment : PreferenceFragmentCompat(), DialogInterface.OnClickListener
                     .show()
 
             }
-
+*/
             .show()
 
 
