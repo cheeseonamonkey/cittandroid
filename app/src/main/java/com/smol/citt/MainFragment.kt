@@ -75,7 +75,7 @@ class MainFragment : PreferenceFragmentCompat(), DialogInterface.OnClickListener
                     .show()
 
             }
-*/
+
             .show()
 
 
